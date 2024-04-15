@@ -18,5 +18,12 @@ O  parâmetro `--allow-empty`permite a criação de um commit vazio, para fins d
 ~~~bash
 git commit -a 
 ~~~ 
-<!--  -->
+<!-- O -a significa o Add(adicionar) no momento de realizar o commit -->
 O parâmetro `-a`adiciona todos os arquivos modificados ou não ignorados ao commit atual.
+
+~~~bash
+git checkout -b novoBranch
+git switch -c git novoBranch
+~~~
+
+O parâmetro `-b` alterna para `novoBranch`criando o branch. O mesmo acontece com o comando `git switch`com o parâmetro `-c`.
